@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carstore</title>
+    <meta name="auther" content="mahdinajafi">
+    <meta name="description" content="this is a store to sell cars and buy cars from people but old or new cars">
+    <meta name="keywords" content="ماشین,جدید,قدیم,پیکان,پراید,بی ام و,پرشیا,پژو,رانا">
+    <link rel="stylesheet" href="../css/car_store.css">
+    <link rel="stylesheet" href="../bootstrap/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="../images/mylogo.png" type="image/x-icon">
+</head>
+<body>
+    <div class="header" dir="rtl" id="header">
+        <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
+            <div class="bg-dark p-4">
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-white font-weight-bold border-bottom" id="content">سبد خرید</a></li>
+                <li><a href="#" class="text-white font-weight-bold border-bottom" id="content">صفحه نخست</a></li>
+                <li><a href="#" class="text-white font-weight-bold border-bottom" id="content">سفارش از ما</a></li>
+              </ul>
+            </div>
+          </div>
+          <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+          </nav>
+    </div>
+
+    <div class="second_header bg-dark text-white" dir="rtl">
+      <div class="second_header_section">
+        <div class="second_header_description">صفحه اصلی</div>
+        <div class="second_header_description">خرید از ما</div>
+        <div class="second_header_description"><a href="../html/signup.html" class="text-decoration-none text-white">ثبت نام</a></div>
+        <div class="second_header_description">ورود</div>
+      </div>
+    </div>
+
+    <div class="navbar" dir="rtl">
+        <div class="main_section">
+            <div class="main_description">صفحه نخست</div>
+            <div class="main_description">درباره ما</div>
+            <div class="dropdown small">
+                <button class="btn btn-secondary dropdown-toggle btn-sm bg-transparent border-0"  type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" <i class="fa fa-id-badge" aria-hidden="true" id="dropdown"></i>
+                  محصولات
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Option 1</a>
+                  <a class="dropdown-item" href="#">Option 2</a>
+                  <a class="dropdown-item" href="#">Option 3</a>
+                </div>
+              </div>
+            <div class="main_description">تماس با ما</div>
+        </div>  
+    </div>   
+
+    <div class="main">
+        <div class="main_section_slidershow">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../images/ماشین4.jpeg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../images/ماشین3.jpeg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../images/ماشین2.jpeg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+        <div class="main_section_cards overflow-hidden">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card h-100" dir="rtl">
+                    <img src="../images/ماشین.jpeg" class="card-img-top" alt="carphoto">
+                    <div class="card-body bg-dark text-white">
+                      <h5 class="card-title">ماشین لامبورگینی</h5>
+                      <p class="card-text">این ماشین به قیمت 100000 دلار فروخته میشود</p>
+                    </div>
+                    <div class="card-footer bg-dark">
+                      <small id="card_description">بخش ماشین ها</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100" dir="rtl">
+                    <img src="../images/ماشین3.jpeg" class="card-img-top" alt="carphoto">
+                    <div class="card-body bg-dark text-white">
+                      <h5 class="card-title">ماشین بی ام و</h5>
+                      <p class="card-text">این ماشین به قیمت 500000 دلار فروخته میشود</p>
+                    </div>
+                    <div class="card-footer bg-dark">
+                      <small id="card_description">بخش ماشین ها</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100" dir="rtl">
+                    <img src="../images/ماشین استون مارتین1.jpeg" class="card-img-top" alt="carphoto">
+                    <div class="card-body bg-dark text-white">
+                      <h5 class="card-title">ماشین استون مارتین</h5>
+                      <p class="card-text">این ماشین به قیمت 5000000 دلار فروخته میشود</p>
+                    </div>
+                    <div class="card-footer bg-dark">
+                      <small id="card_description">بخش ماشین ها</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-5 pt-5 pb-5 footer bg-dark text-white text-decoration-none" id="cards" dir="rtl">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 col-xs-12 about-company">
+              <h2>مطلب ها</h2>
+              <p class="pr-5 text-white-50">تمامی مطلب ها برای این وبسایت است </p>
+              <p><a href="#"><i class="fa fa-facebook-square mr-1"></i></a><a href="#"><i class="fa fa-linkedin-square"></i></a></p>
+            </div>
+            <div class="col-lg-3 col-xs-12 links">
+              <h4 class="mt-lg-0 mt-sm-3">لینک ها</h4>
+                <ul class="m-0 p-0">
+                  <li>- <a href="#">صفحه اصلی</a></li>
+                  <li>- <a href="#">خرید محصول</a></li>
+                  <li>- <a href="#">محصولات موجود</a></li>
+                  <li>- <a href="#">قیمت های روزانه</a></li>
+                  <li>- <a href="#">بازار داخلی</a></li>
+                  <li>- <a href="#">بازار خارجی</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-xs-12 location">
+              <h4 class="mt-lg-0 mt-sm-4">لوکیشن</h4>
+              <p>کرج فردیس فلکه سوم</p>
+              <p class="mb-0"><i class="fa fa-phone mr-3"></i>9108487***</p>
+              <p><i class="fa fa-envelope-o mr-3"></i>mahdinajafi8349@gmail.com</p>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col copyright">
+              <p class=""><small class="text-white-50">© 2023. All Rights Reserved.</small></p>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+
+    <link rel="stylesheet" href="../">
+    <script src="../bootstrap/bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
